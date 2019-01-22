@@ -8,8 +8,8 @@
 
 	$decode = "";
 	$encode = "";
-	$passphrase = "elcincdotcom";
-	$key = "elckeys";
+	$passphrase = "passphrase";
+	$key = "identifier";
 	$ver = "0";
 
 	
