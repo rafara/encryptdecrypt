@@ -11,13 +11,13 @@
 
   $passphrase = $_POST["passphrase"]; 
   $key = $_POST["key"];  
-  $ver = $_POST["ver"];  
+  $ver = (int)$_POST["ver"];  
 
 
 $keymaterial = NexoDeriveKeyMaterial($passphrase);
 
 if(!empty($encode)){    
-    $outmessage = NexoSender($encode, $key, 0, $keymaterial);
+    $outmessage = NexoSender($encode, $key, $ver, $keymaterial);
     echo '<br/><b>Encrypted request:    </b><br/>' . _format_json($outmessage,true);
 }
 
