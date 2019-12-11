@@ -26,36 +26,4 @@ if(!empty($decode)){
       echo '<BR/><b>Unencrypted Response:    </b><br/>' . _format_json($message,true);
 }
 
-
-
-    // $keymaterial= implode( $keymaterial );
-    // $hex = bin2hex($keymaterial);   
-    // print_r($hex);
-
-
-    // // $outmessage = NexoSender($Data, 'mykey', 0, $keymaterial);
-    // echo '<b>Encrypted Request::</b> <br/>'._format_json($outmessage,true);
-    // echo "<br/><br/><br/>";
-
-
-
-    //   $message = NexoReceiver($decode);
-    //    echo '<b>Unencrypted Response:    </b><br/>' . _format_json($message,true);
-
-
-   //echo '<b>data request:    </b><br/>' .$Data;
-  //echo "<br/>=====================<br/>";
-   //  // echo $header;
-   //  echo "<br/><br/><br/>";
-
-
-
-    //  $message = NexoReceiver($Data);
-     // echo '<b>Unencrypted Response:    </b><br/>' . _format_json($message,true);
-   
-
-   
-   // close cURL resource, and free up system resources
-    // curl_multi_close($ch);
-
 ?>
